@@ -1,0 +1,9 @@
+title: Home
+
+sections:
+  shows:
+    type: pages
+    layout: cards
+    image:
+      cover: true
+      ratio: 1/1
