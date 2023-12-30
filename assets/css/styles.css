@@ -132,7 +132,7 @@ header {
   letter-spacing: 10px;
   color: var(--CLR_BLUE);
   background-color: var(--CLR_WHITE);
-  transform: rotate(1deg);
+  transform: rotate(1.5deg);
 }
 
 .header_L {
