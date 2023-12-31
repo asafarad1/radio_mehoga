@@ -11,7 +11,7 @@
                 <p class="highlight"><?= $show->show_title() ?></p>
             </div>
             <div class="show_date">
-                <p class="highlight"><?= $show->date() ?></p>
+                <p class="highlight"><?= $show->published()->toDate('d/m/y') ?></p>
             </div>
         </li>
         <?php endforeach ?>

@@ -16,5 +16,5 @@ sections:
         type: text
       description:
         type: textarea
-      date: 
-        type: text
+      published: 
+        type: date
