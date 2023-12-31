@@ -12,11 +12,11 @@
   <div class="page_bg"></div>
   <header>
     <div class="header_R">
-      <a href="#top">
+      <a href="/home/#top">
         <img src="/assets/images/logotype_white.svg">
       </a>
       <p class="WIP">האתר בשיפוצים</p>
-      <a href="#top">
+      <a href="/home/#top">
         <img src="/assets/images/logotype_white.svg">
       </a>
     </div>

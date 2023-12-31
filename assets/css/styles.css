@@ -200,11 +200,17 @@ header {
   font-size: var(--TXT1_SIZE);
 }
 
-.show > div {
+.show > div,
+.show > a {
   margin-top: 25px;
 }
 
-.play_hover {
+.show a
+{
+    white-space: unset;
+}
+
+.hover_play {
   display: none;
   position: absolute;
   mix-blend-mode: multiply;
@@ -214,6 +220,7 @@ header {
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
+  
 
   z-index: 5;
   height: var(--SHOW_SIZE);
@@ -232,18 +239,6 @@ header {
   mix-blend-mode: screen;
 }
 
-@media (hover: hover) {
-  .show:hover {
-  }
-
-  .show:hover > .play_hover {
-    display: block;
-  }
-
-  .show:hover > .hover_ovelay {
-    display: block;
-  }
-}
 .show_date > p { 
   font-weight: var(--TXT1_REGULAR);
 }
@@ -259,6 +254,7 @@ header {
 .show_title,
 .show_date {
   z-index: 6;
+  cursor: pointer;
 }
 
 .highlight {
@@ -274,7 +270,12 @@ header {
   background: var(--CLR_BLUE);
 }
 
+/* show_page */
+
 .show_page {
+  display: flex;
+  flex-direction: column-reverse;
+
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -283,20 +284,48 @@ header {
   padding-right: 8.3vw;
   padding-bottom: 8.3vw;
 
+  height: auto;
   width: 100%;
-  height: 100%;
+
+  position: absolute;
+  top: 40px;
+  bottom: 0;
 }
 
 .show_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
   background-color: var(--CLR_WHITE);
 
-  width: 25vw;
-  height: 15vw;
+  width: 35vw;
+  height: auto;
+  padding: 20px;
 }
 
 .show_info p { 
   font-family: var(--TXT1_FAMILY);
   font-size: var(--TXT1_SIZE);
+}
+
+.show_description {
+  color: var(--CLR_BLUE);
+}
+
+@media (hover: hover) {
+  .show_title:hover > .highlight,
+  .show_title:hover ~ .show_date > .highlight
+  {
+    color: var(--CLR_BLACK);
+    background-color: var(--CLR_FPINK);
+  }
+
+  .show:hover .show_title:not(:hover) ~ .hover_play,
+  .show:hover > .hover_ovelay
+  {
+    display: block;
+  }
 }
 
 /* --- mixcloud api --- */
