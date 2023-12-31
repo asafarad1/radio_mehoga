@@ -392,6 +392,20 @@ header {
   .header_R a:last-child {
     display: none;
   }
+
+  .show_page {
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+
+  .show_info {
+    width: 100%;
+  }
+  
+  .show_info .show_title,
+  .show_info .show_description { 
+    max-width: 400px;
+  }
 }
 
 @media (max-width: 700px) {
