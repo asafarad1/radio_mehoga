@@ -2,4 +2,175 @@ Title: Home
 
 ----
 
+D1: 2024-01-14
+
+----
+
+D1s1-first-show-title: יהלי קליין ואורח מסתורי מקשיבים למוסיקה ונזכרים שנחמד לחיות
+
+----
+
+D1s1-first-show-description: 
+
+----
+
+D1s2-second-show-title: ג׳אם סשן
+
+----
+
+D1s2-second-show-description: שני חברים שחיים ונושמים מוזיקה ובעיקר היפ הופ, נפגשים פעם בשבועיים להשמיע אחד לשני ולקהל בבית את מה שחדש ומעניין בארץ ובעולם
+
+----
+
+D1s3-third-show-title: אינק #4 עם שוני
+
+----
+
+D1s3-third-show-description: 
+
+----
+
+D2: 2024-01-15
+
+----
+
+D2s1-first-show-title: אולדיז נחמה עם רועי בן אורי
+
+----
+
+D2s1-first-show-description: להיטים נוסטלגיים משנות הארבעים עד שנות השישים
+
+----
+
+D2s2-second-show-title: פודפודלאומה
+
+----
+
+D2s2-second-show-description: גיא קוסובסקי ורון עזר נפגשים ומבלים את רגעיהם האחרונים לקראת פרידה מתקרבת
+
+----
+
+D2s3-third-show-title: MISSTAKEN ERA hosting: SHÉMÉSH
+
+----
+
+D2s3-third-show-description: 
+
+----
+
+D3: 2024-01-16
+
+----
+
+D3s1-first-show-title: True blue
+
+----
+
+D3s1-first-show-description: Yoel Danilof with The basics all over again
+
+----
+
+D3s2-second-show-title: הרבנות הראשית למיקרונזיה עם עמנואל יצחק לוי
+
+----
+
+D3s2-second-show-description: היהדות שלא הכרתם: מחייזרים לגלגול נשמות, מזומבים לפוליאמוריה
+
+----
+
+D3s3-third-show-title: דיג'יי סט: מוקדם #2
+
+----
+
+D3s3-third-show-description: 
+
+----
+
+D4: 2024-01-17
+
+----
+
+D4s1-first-show-title: רחל wrapped
+
+----
+
+D4s1-first-show-description: 
+
+----
+
+D4s2-second-show-title: סינמתן
+
+----
+
+D4s2-second-show-description: אם לא ניחשתם כבר, התכנית עוסקת בקולנוע ומתן הוא המנחה. כל מילה בסלע, כל כלב יבוא יומו. נתראה? רוב הסיכויים שלא
+
+----
+
+D4s3-third-show-title: יוצאים לסיבוב / יאיא
+
+----
+
+D4s3-third-show-description: 
+
+----
+
+D5: 2024-01-18
+
+----
+
+D5s1-first-show-title: concrete block
+
+----
+
+D5s1-first-show-description: Alex Sesper's cassette tape and vinyl archive.
+
+----
+
+D5s2-second-show-title: מקס עושה קסמים
+
+----
+
+D5s2-second-show-description: סיפורים אזוטריים, אגדות אורבניות, אורחים הזויים ומוסיקה ללבבות. אחוזי החלמה גבוהים למקשיבים
+
+----
+
+D5s3-third-show-title: בר דיכאון גרסת הרדיו #3
+
+----
+
+D5s3-third-show-description: סדרה של 5 פרקי תסכית בשידור חי המהווים את המהלך השני של פרויקט הדגל 'בר דיכאון' של היוצר בנימין אקסטרה
+
+----
+
+About:
+
+תחנת הרדיו האינטרנטית משדרת תכניות מהמקלט של ״תא תרבות המחוגה״ בפלורנטין. רדיו המחוגה מתופעל ומתוחזק על ידי אמנים ויוצרים מקומיים צעירים בשאיפה להוות פלטפורמה חברתית לשיח על יצירה ודרכה. רדיו המחוגה פועל באופן עצמאי והתנדבותי והתכניות בו משודרות בימי חול בשעות שונות לפי לוח הזמנים שבאתר
+
+אורך התכניות בתחנה בין שעה וחצי לארבע שעות. השידורים כוללים סטים שלמים של יוצרים מקומיים, תכניות מוזיקה לפי נושאים, ראיונות עם יוצרים מתחומים שונים, סשנים של מוזיקה ג׳נרטיבית, סאונד הילינג ועוד
+
+יש לכם סיפור לספר. / דבר להגיד. / צלילים לחלוק. / דממה להפיג
+מזמינים אתכם לקבוע שידור בלוחות השידורים לשבועות הבאים. אפשר ליצור קשר באינסטגרם ובמייל :)
+
+----
+
+Instagram: @radiomehoga
+
+----
+
+Email: radiomehoga@gmail.com
+
+----
+
+Instagram-link: @radiomehoga
+
+----
+
+Show-title: 
+
+----
+
+Description-a: 
+
+----
+
 Uuid: 1bAXrUThGOZFtJ1e

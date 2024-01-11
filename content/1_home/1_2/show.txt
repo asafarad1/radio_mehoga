@@ -1,21 +1,21 @@
-Title: פעמיים כי בא לי #2 מארחת את אנה שני
+Title: משהו כמו תה #2 עם דריהבר
 
 ----
 
-Mixcloudlink: https://www.mixcloud.com/mehoga_/פעמיים-כי-בא-לי-2-מארחת-את-אנה-שני/
+Mixcloudlink: https://soundcloud.com/radio-mehoga/2a-1?si=edc90b967330488289922ac837980586&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
 
 ----
 
-Show-title: פעמיים כי בא לי #2 מארחת את אנה שני
+Show-title: משהו כמו תה #2 עם דריהבר
 
 ----
 
-Description: ארת'איטר. פרויד. גיאגיא. ליה פון ואנה שני על קנאת הפין ושנאת הפודקאסט
+Description: דריהבר בוחרת תיון, מספרת סיפור ומשמיעה מספר שירים עם נושא משותף.
 
 ----
 
-Published: 2023-12-31
+Category: דריהב
 
 ----
 
-Uuid: d6MimrFeR5KuwDhd
+Uuid: 1BAhTRiuHEbeaaa8

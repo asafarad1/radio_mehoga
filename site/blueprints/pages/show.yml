@@ -16,5 +16,9 @@ sections:
         type: text
       description:
         type: textarea
-      published: 
-        type: date
+      category:
+        label: Category
+        type: tags
+        options:
+          type: query
+          query: page.categories.split(";")
