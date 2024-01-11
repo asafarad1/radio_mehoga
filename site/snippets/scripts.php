@@ -1,3 +1,45 @@
+<script type="text/javascript">
+
+    var archive_button = document.querySelector('.archive_button');
+    var program_button = document.querySelector('.program_button');
+    var about_button = document.querySelector('.about_button');
+
+    var archive = document.querySelector('.shows');
+    var program = document.querySelector('.program');
+    var about = document.querySelector('.about');
+    
+    archive_button.addEventListener('click', e => {
+        archive.classList.remove('close');
+        program.classList.add('close');
+        about.classList.add('close');
+
+        archive_button.classList.add('marked');
+        program_button.classList.remove('marked');
+        about_button.classList.remove('marked');
+    })
+
+    program_button.addEventListener('click', e => {
+        archive.classList.add('close');
+        program.classList.remove('close');
+        about.classList.add('close');
+
+        archive_button.classList.remove('marked');
+        program_button.classList.add('marked');
+        about_button.classList.remove('marked');
+    })
+
+    about_button.addEventListener('click', e => {
+        archive.classList.add('close');
+        program.classList.add('close');
+        about.classList.remove('close');
+
+        archive_button.classList.remove('marked');
+        program_button.classList.remove('marked');
+        about_button.classList.add('marked');
+    })
+
+</script>
+
 <script src="//w.soundcloud.com/player/api.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -190,48 +232,4 @@
     }
     
     document.addEventListener('DOMContentLoaded', initApp)
-</script>
-
-<script type="text/javascript">
-
-    var archive_button = document.querySelector('.archive_button');
-    var program_button = document.querySelector('.program_button');
-    var about_button = document.querySelector('.about_button');
-
-    var archive = document.querySelector('.shows');
-    var program = document.querySelector('.program');
-    var about = document.querySelector('.about');
-
-    console.log("asaf");
-    
-    archive_button.addEventListener('click', e => {
-        archive.classList.remove('close');
-        program.classList.add('close');
-        about.classList.add('close');
-
-        archive_button.classList.add('marked');
-        program_button.classList.remove('marked');
-        about_button.classList.remove('marked');
-    })
-
-    program_button.addEventListener('click', e => {
-        archive.classList.add('close');
-        program.classList.remove('close');
-        about.classList.add('close');
-
-        archive_button.classList.remove('marked');
-        program_button.classList.add('marked');
-        about_button.classList.remove('marked');
-    })
-
-    about_button.addEventListener('click', e => {
-        archive.classList.add('close');
-        program.classList.add('close');
-        about.classList.remove('close');
-
-        archive_button.classList.remove('marked');
-        program_button.classList.remove('marked');
-        about_button.classList.add('marked');
-    })
-
 </script>
