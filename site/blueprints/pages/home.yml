@@ -6,11 +6,11 @@ tabs:
   archive:
     label: ARCHIVE
     icon: play
-    sections:
+    columns:
 
       # shows
       shows:
-        width: 1/3
+        width: 1/5
         sections:
           shows:
             type: pages
