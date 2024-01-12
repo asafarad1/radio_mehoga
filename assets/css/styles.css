@@ -425,6 +425,7 @@ footer {
 
 .day_container {
   border-bottom: 2px solid var(--CLR_GREEN);
+  margin-bottom: var(--GRID_GAP);
 }
 
 .date_container {
@@ -432,7 +433,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
 
-  margin-bottom: 10px;
+  margin-bottom: var(--GRID_GAP);
 }
 
 .program_show {
