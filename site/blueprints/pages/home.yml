@@ -6,7 +6,7 @@ tabs:
   archive:
     label: ARCHIVE
     icon: play
-    columns:
+    sections:
 
       # shows
       shows:
