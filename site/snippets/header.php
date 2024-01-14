@@ -37,7 +37,7 @@
       <div class="live_mid">
         <div class="live_info">
           <p>עכשיו</p>
-          <p href="https://cast1.asurahosting.com:2199/tunein/hamehug1.pls" class="cc_streaminfo" data-type="song" data-username="hamehug1">Loading ...</p>
+          <p href="https://cast1.asurahosting.com:2199/tunein/hamehug1.pls" class="cc_streaminfo" data-type="song" data-username="hamehug1">רק רגע...</p>
         </div>
         <div class="play_button btn-play-live">
           <img src="/assets/images/play.gif">
