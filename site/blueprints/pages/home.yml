@@ -6,18 +6,13 @@ tabs:
   archive:
     label: ARCHIVE
     icon: play
-    columns:
-
-      # shows
+    sections:
       shows:
-        width: 1/3
-        sections:
-          shows:
-            type: pages
-            layout: cards
-            image:
-              cover: true
-              ratio: 1/1
+        type: pages
+        layout: cards
+        image:
+          cover: true
+          ratio: 1/1
 
   # program tab
   program:
