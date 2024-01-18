@@ -6,7 +6,7 @@
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <title><?= $site->title() ?></title>
   
-  <?= css('assets/css/styles.css?v=02') ?>
+  <?= css('assets/css/styles.css?v=03') ?>
 
 </head>
 <body>
