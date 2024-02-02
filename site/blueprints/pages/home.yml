@@ -10,6 +10,7 @@ tabs:
       shows:
         type: pages
         layout: cards
+        size: small
         image:
           cover: true
           ratio: 1/1
