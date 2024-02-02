@@ -52,10 +52,4 @@ Icon
 # Content
 # ---------------
 
-/content/*
-content/1_home/2_3/a.jpeg
-content/1_home/2_3/a.jpeg.txt
-content/1_home/2_3/show.txt
-content/1_home/3_jump1/show.txt
-content/1_home/3_jump1/whatsapp-image-2023-12-06-at-17.17.10-1.jpeg
-content/1_home/3_jump1/whatsapp-image-2023-12-06-at-17.17.10-1.jpeg.txt
+/content/1_home/*
