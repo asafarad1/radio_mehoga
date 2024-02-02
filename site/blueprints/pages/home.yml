@@ -10,7 +10,6 @@ tabs:
       shows:
         type: pages
         layout: cards
-        size: small
         image:
           cover: true
           ratio: 1/1
@@ -57,7 +56,7 @@ tabs:
             type: fields
             fields:
               d1s2_second_show_title:
-                label: second show 16:00—18:00
+                label: second show 18:00—20:00
                 type: text
               d1s2_second_show_description:
                 label: description
@@ -70,7 +69,7 @@ tabs:
             type: fields
             fields:
               d1s3_third_show_title:
-                label: third show 16:00—18:00
+                label: third show 20:00—22:00
                 type: text
               d1s3_third_show_description:
                 label: description
@@ -110,7 +109,7 @@ tabs:
             type: fields
             fields:
               d2s2_second_show_title:
-                label: second show 16:00—18:00
+                label: second show 18:00—20:00
                 type: text
               d2s2_second_show_description:
                 label: description
@@ -123,7 +122,7 @@ tabs:
             type: fields
             fields:
               d2s3_third_show_title:
-                label: third show 16:00—18:00
+                label: third show 20:00—22:00
                 type: text
               d2s3_third_show_description:
                 label: description
@@ -163,7 +162,7 @@ tabs:
             type: fields
             fields:
               d3s2_second_show_title:
-                label: second show 16:00—18:00
+                label: second show 18:00—20:00
                 type: text
               d3s2_second_show_description:
                 label: description
@@ -176,7 +175,7 @@ tabs:
             type: fields
             fields:
               d3s3_third_show_title:
-                label: third show 16:00—18:00
+                label: third show 20:00—22:00
                 type: text
               d3s3_third_show_description:
                 label: description
@@ -216,7 +215,7 @@ tabs:
             type: fields
             fields:
               d4s2_second_show_title:
-                label: second show 16:00—18:00
+                label: second show 18:00—20:00
                 type: text
               d4s2_second_show_description:
                 label: description
@@ -229,7 +228,7 @@ tabs:
             type: fields
             fields:
               d4s3_third_show_title:
-                label: third show 16:00—18:00
+                label: third show 20:00—22:00
                 type: text
               d4s3_third_show_description:
                 label: description
@@ -269,7 +268,7 @@ tabs:
             type: fields
             fields:
               d5s2_second_show_title:
-                label: second show 16:00—18:00
+                label: second show 18:00—20:00
                 type: text
               d5s2_second_show_description:
                 label: description
@@ -282,7 +281,7 @@ tabs:
             type: fields
             fields:
               d5s3_third_show_title:
-                label: third show 16:00—18:00
+                label: third show 20:00—22:00
                 type: text
               d5s3_third_show_description:
                 label: description
