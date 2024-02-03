@@ -4,7 +4,7 @@
     $shows = $page
     ->children()
     ->listed()
-    ->when($filterby, function($filterby) {
+    ->when($filterby = null, function($filterby) {
         return $this->filterBy('show_title', '*=', $filterby);
     })
 ?>
