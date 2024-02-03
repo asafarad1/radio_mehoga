@@ -17,12 +17,12 @@
         <a class="logo" href="/home/#top">
           <img src="/assets/images/logotype_white.svg">
         </a>
-        <div class="search_container">
+        <!-- <div class="search_container">
           <form action="" method="get">
             <input type="text" id="search" name="search" value="" placeholder="חיפוש">
             <input type="submit" value="&#x1F50D">
           </form>
-        </div>
+        </div> -->
       </div>
       <div class="header_menu">
         <div class="archive_button menu_object marked" onclick="swich_page('1')">

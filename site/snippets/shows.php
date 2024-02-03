@@ -1,12 +1,12 @@
 <?php
-    $filterby = $_GET['search'];
+    $filterby = get('search');
     
     $shows = $page
     ->children()
     ->listed()
-    ->when( $filterby , function($filterby) {
-        return $this->filterBy('show_title', '*=', $filterby);
-    })
+    // ->when( $filterby != null , function($filterby) {
+    //     return $this->filterBy('show_title', '*=', $filterby);
+    // })
 ?>
 <ul class="shows">
             <?php foreach ($shows as $show): ?>
