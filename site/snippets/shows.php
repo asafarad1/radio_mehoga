@@ -1,5 +1,19 @@
 <ul class="shows">
-        <?php foreach ($page->children() as $show): ?>
+    <?php
+        $filterby = get('search');
+        echo "<script> 
+            console.log('this is a Variable: " . $filterby. "');
+        </script>";
+        
+        $shows = $page
+        ->children()
+        ->listed()
+        ->when($filterby, function($filterby) {
+            return $this->filterBy('show_title', '*=', $filterby);
+        })
+    ?>
+
+        <?php foreach ($shows as $show): ?>
             <li class="show" 
             style="background-image: url('<?= $show->image()->url() ?>')"
             data-variable="<?= $show->mixcloudlink() ?>"

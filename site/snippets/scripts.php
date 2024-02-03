@@ -1,3 +1,4 @@
+<!-- nav -->
 <script type="text/javascript">
 
     var archive_button = document.querySelector('.archive_button');
@@ -40,8 +41,8 @@
 
 </script>
 
+<!-- soundcloud -->
 <script src="//w.soundcloud.com/player/api.js" type="text/javascript"></script>
-
 <script type="text/javascript">
     var iframeElement = document.querySelector('.SC_player');
     var SC_player = SC.Widget(iframeElement);
@@ -58,10 +59,9 @@
         iframeElement.style.display = "block";
         SC_player.load(url, options);
     }
-
 </script>
 
-
+<!-- live stream -->
 <script language="javascript" type="text/javascript" src="https://cast1.asurahosting.com:2199/system/streaminfo.js"></script>
 
 <script type="text/javascript">
@@ -183,10 +183,6 @@
         radioService.on('stream', e => {
             src = e.src;
             audioPlayer.src = e.src;
-        })
-        
-        radioService.on('listeners', e => {
-            // document.querySelector('#listeners').textContent = `${e.listeners} Listeners`;
         })
         
         const btn_play_live = document.querySelectorAll(".btn-play-live");
