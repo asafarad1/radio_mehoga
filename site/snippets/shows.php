@@ -1,10 +1,10 @@
 <?php
-    $filterby = get('search');
+    $filterby = $_GET['search'];
     
     $shows = $page
     ->children()
     ->listed()
-    ->when($filterby, function($filterby) {
+    ->when( $filterby , function($filterby) {
         return $this->filterBy('show_title', '*=', $filterby);
     })
 ?>
