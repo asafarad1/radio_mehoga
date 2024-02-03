@@ -16,7 +16,7 @@
   </style>
   <title><?= $site->title() ?></title>
   
-  <?= css('assets/css/styles.css?v=03') ?>
+  <?= css('assets/css/styles.css?v=04') ?>
 
 </head>
 <body>
