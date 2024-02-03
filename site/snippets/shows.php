@@ -1,9 +1,6 @@
 <ul class="shows">
     <?php
         $filterby = get('search');
-        echo "<script> 
-            console.log('this is a Variable: " . $filterby. "');
-        </script>";
         
         $shows = $page
         ->children()
