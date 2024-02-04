@@ -49,3 +49,7 @@ Icon
 
 /site/config/.license
 
+# Content
+# ---------------
+
+/content/1_home/*
