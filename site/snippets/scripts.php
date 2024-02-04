@@ -38,12 +38,15 @@
         program_button.classList.remove('marked');
         about_button.classList.add('marked');
     })
-
 </script>
 
 <!-- soundcloud -->
 <script src="//w.soundcloud.com/player/api.js" type="text/javascript"></script>
+
+<!-- live stream + soundcloud -->
+<script language="javascript" type="text/javascript" src="https://cast1.asurahosting.com:2199/system/streaminfo.js"></script>
 <script type="text/javascript">
+    // soundcloud
     var iframeElement = document.querySelector('.SC_player');
     var SC_player = SC.Widget(iframeElement);
     
@@ -59,12 +62,8 @@
         iframeElement.style.display = "block";
         SC_player.load(url, options);
     }
-</script>
 
-<!-- live stream -->
-<script language="javascript" type="text/javascript" src="https://cast1.asurahosting.com:2199/system/streaminfo.js"></script>
-
-<script type="text/javascript">
+    // live stream
     class EventEmitter {
         constructor(){
             this._listeners = {};
@@ -110,6 +109,7 @@
             this.emit('listeners', {listeners: info.listeners})
         }
     }
+
     async function postRequest(url, data){
         data = data || {};
         const response = await fetch(url, {
@@ -135,6 +135,7 @@
             })
         }
     }
+
     async function initArchive(){
         const service = new ShowsService();
         const items = await service.fetch();
@@ -160,7 +161,7 @@
             
             audioPlayer.addEventListener('timeupdate', () => {
                 const p = Math.floor(audioPlayer.currentTime / audioPlayer.duration * 100);
-                el.querySelector('.progress .line').style.width = `${p}%`
+                el.querySelector('.progress .line').style.width = `${p}%`;
             })
             
             el.querySelector('.progress').addEventListener('click', e => {
@@ -211,15 +212,24 @@
             isPlaying = false;
         };
 
+        // toggle live play click  
         document.querySelector('.play-live').addEventListener('click', e => {
-            console.log("asaf");
             isPlaying ? audioPlayer.pause() : audioPlayer.play();
         })
+
+        // SC play  
+        SC_player.bind(SC.Widget.Events.PLAY, function() {
+            audioPlayer.pause();
+            document.querySelector('.play-live').classList.remove('playing');
+        });
         
+        // class-play update
         audioPlayer.addEventListener('play', () => {
             document.querySelector('.play-live').classList.add('playing');
+            SC_player.pause();
         })
         
+        // class-pause update
         audioPlayer.addEventListener('pause', () => {
             document.querySelector('.play-live').classList.remove('playing');
         })
