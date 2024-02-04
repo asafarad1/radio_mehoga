@@ -1,15 +1,5 @@
-<?php
-    $filterby = get('search');
-    
-    $shows = $page
-    ->children()
-    ->listed()
-    // ->when( $filterby != null , function($filterby) {
-    //     return $this->filterBy('show_title', '*=', $filterby);
-    // })
-?>
 <ul class="shows">
-            <?php foreach ($shows as $show): ?>
+            <?php foreach ($page->children()->listed() as $show): ?>
             <li class="show" 
             style="background-image: url('<?= $show->image()->url() ?>')"
             data-variable="<?= $show->mixcloudlink() ?>"
