@@ -5,7 +5,7 @@
     ->children()
     ->listed()
     ->when($filterby , function($filterby) {
-        return $this->filterBy('show_title', '*=', $filterby);
+        return $this->sortBy('published', 'desc')->filterBy('show_title', '*=', $filterby);
     })
 ?>
 <ul class="shows">

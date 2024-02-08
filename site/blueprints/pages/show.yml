@@ -22,3 +22,6 @@ sections:
         options:
           type: query
           query: page.categories.split(";")
+      published:
+        label: Published on (hidden)
+        type: date
