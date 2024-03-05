@@ -63,6 +63,13 @@
         SC_player.load(url, options);
     }
 
+    SC_player.bind(SC.Widget.Events.FINISH, 
+    function finishedPlaying() { 
+            var url = "https://soundcloud.com/radio-mehoga/"
+            SC_player.load(url, options);
+        }
+    );
+
     // live stream
     class EventEmitter {
         constructor(){
