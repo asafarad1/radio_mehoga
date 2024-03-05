@@ -18,6 +18,9 @@
                 <div class="show_title">
                     <p class="highlight"><?= $show->show_title() ?></p>
                 </div>
+                <div class="show_title">
+                    <p class="highlight"><?= $show->published() ?></p>
+                </div>
                 <div class="show_info">
                     <div class="show_description">
                         <p class="highlight"><?= $show->description() ?></p>
