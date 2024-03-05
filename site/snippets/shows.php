@@ -4,7 +4,7 @@
     $shows = $page
     ->children()
     ->listed()
-    ->sortBy('published', 'desc')
+    ->sortBy('published', 'asc')
     ->when($filterby , function($filterby) {
         return $this->filterBy('show_title', '*=', $filterby);
     })
