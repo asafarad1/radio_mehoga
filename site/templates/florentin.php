@@ -6,15 +6,46 @@
     <title>Florentin Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
+        @font-face {
+            font-family: miriam;
+            font-weight: normal;
+            src: url(/assets/fonts/MiriamLibre-Regular.ttf);
+            font-weight: 400;
+        }
+
+
         #map { height: 100vh; }
 
         .leaflet-popup-content {
             text-align: right;
         }
+
+        #map-container {
+            position: relative;
+        }
+
+        #loading-banner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999; /* Ensure it's above the map */
+            color: magenta;
+            font-family: miriam;
+            font-size: 40px;
+        }
     </style>
 </head>
 <body>
-    <div id="map"></div>
+    <div id="map-container">
+        <div id="map"></div>
+        <div id="loading-banner">...טוען מפה</div>
+    </div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
@@ -45,7 +76,10 @@
 
         var imageUrl = '/assets/images/map_layer.png';
 
-        L.imageOverlay(imageUrl, imageBounds).addTo(map);
+        L.imageOverlay(imageUrl, imageBounds).addTo(map).on('load', function() {
+            // Hide the loading banner when the map tiles are fully loaded
+            document.getElementById('loading-banner').style.display = 'none';
+        });;
 
         // var marker_drag = L.marker([0, 0], { draggable: true }).addTo(map);
 
