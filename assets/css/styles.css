@@ -391,6 +391,11 @@ footer {
   background: var(--CLR_BLUE);
 }
 
+.show_published > .highlight {
+  color: var(--CLR_BLUE);
+  background: var(--CLR_WHITE);
+}
+
 .hover_play {
   display: block;
   position: absolute;
