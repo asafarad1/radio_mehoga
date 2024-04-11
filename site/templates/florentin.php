@@ -274,7 +274,7 @@
         marker53.bindPopup("<b>רחוב קורדברו</b><br>רחוב קורדוברו");
         
         var marker54 = L.marker([0.36134480311281647, 0.9757232666015626], { draggable: false, icon: loc_Icon }).addTo(map);
-        marker54.bindPopup("<b>חומות של תקווה / אוצרות: ימבו</b><br>רבנו חננאל 20<br>38 ציורי קיר בקריאה לשחרור הילדים החטופים מאירועי ה־7 באוקטובר");
+        marker54.bindPopup("<b>חומות של תקווה / אוצרות: ימבו</b><br>רבנו חננאל 20");
 
     </script>
 </body>
