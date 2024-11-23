@@ -17,7 +17,7 @@
         data-variable="<?= $show->mixcloudlink() ?>"
         onClick="buttonClicked(this);">
         <div class="show_tags">
-            <p class="highlight"><?= $show->category() ?></p>
+            <p class="highlight"><?= $show->category() ?></p><br>
             <p class="highlight"><?= $show->published('%d.%m.%Y') ?></p>
         </div>
         <div class="show_title">
