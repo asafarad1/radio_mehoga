@@ -30,7 +30,7 @@
 
   /* character style */
   --TXT1_FAMILY: miriam;
-  --TXT1_SIZE: 17px;
+  --TXT1_SIZE: 16px;
   --TXT1_REGULAR: 400;
   --TXT1_BOLD: 700;
 
@@ -389,6 +389,7 @@ footer {
 
 .show_title > .highlight {
   background: var(--CLR_BLUE);
+  font-size: 20px;
 }
 
 .show_published > .highlight {
@@ -444,7 +445,6 @@ footer {
 .show_tags > .highlight {
   color: var(--CLR_FPINK);
   background: var(--CLR_WHITE);
-  font-size: 20px;
 }
 
 .show_description > .highlight {
