@@ -30,12 +30,12 @@
 
   /* character style */
   --TXT1_FAMILY: miriam;
-  --TXT1_SIZE: 20px;
+  --TXT1_SIZE: 17px;
   --TXT1_REGULAR: 400;
   --TXT1_BOLD: 700;
 
   /* layout */
-  --SHOW_SIZE: 15vw;
+  --SHOW_SIZE: 17vw;
   --GRID_GAP: 4vw;
 }
 
