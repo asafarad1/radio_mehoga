@@ -389,6 +389,7 @@ footer {
 
 .show_title > .highlight {
   background: var(--CLR_BLUE);
+  font-weight: var(--TXT1_BOLD);
   font-size: 20px;
 }
 
