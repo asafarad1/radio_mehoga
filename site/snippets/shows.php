@@ -16,18 +16,18 @@
         style="background-image: url('<?= $show->image()->url() ?>')"
         data-variable="<?= $show->mixcloudlink() ?>"
         onClick="buttonClicked(this);">
-        <div class="show_title">
-            <p class="highlight"><?= $show->show_title() ?></p>
+        <div class="show_tags">
+            <p class="highlight"><?= $show->category() ?></p>
         </div>
         <div class="show_published">
             <p class="highlight"><?= $show->published() ?></p>
         </div>
+        <div class="show_title">
+            <p class="highlight"><?= $show->show_title() ?></p>
+        </div>
         <div class="show_info">
             <div class="show_description">
                 <p class="highlight"><?= $show->description() ?></p>
-            </div>
-            <div class="show_tags">
-                <p class="highlight"><?= $show->category() ?></p>
             </div>
         </div>
     </li>

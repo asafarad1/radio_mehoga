@@ -30,7 +30,7 @@
 
   /* character style */
   --TXT1_FAMILY: miriam;
-  --TXT1_SIZE: 17px;
+  --TXT1_SIZE: 20px;
   --TXT1_REGULAR: 400;
   --TXT1_BOLD: 700;
 
@@ -345,7 +345,7 @@ footer {
   width: 100%;
   height: 120px;
 
-  mix-blend-mode: screen;
+  mix-blend-mode: none;
 }
 
 
