@@ -25,3 +25,4 @@ sections:
       published:
         label: Published on (hidden)
         type: date
+        display: DD.MM.YYYY
