@@ -18,7 +18,7 @@
         onClick="buttonClicked(this);">
         <div class="show_tags">
             <p class="highlight"><?= $show->category() ?></p><br>
-            <p class="highlight"><?= $show->published('%d.%m.%Y') ?></p>
+            <p class="highlight"><?= $show->published('d.m.y') ?></p>
         </div>
         <div class="show_title">
             <p class="highlight"><?= $show->show_title() ?></p>
