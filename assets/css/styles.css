@@ -444,6 +444,7 @@ footer {
 .show_tags > .highlight {
   color: var(--CLR_FPINK);
   background: var(--CLR_WHITE);
+  font-size: 20px;
 }
 
 .show_description > .highlight {
@@ -454,7 +455,6 @@ footer {
 .show_title {
   z-index: 6;
   cursor: pointer;
-  font-size: 20vw;
 }
 
 /* program */
